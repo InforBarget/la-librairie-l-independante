@@ -1,0 +1,150 @@
+/*reset minimal*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+/*fin reset*/
+
+/*mise en forme générale de la page*/
+body {
+	font-family: arial, verdana, sans-serif;
+	width: 960px;
+}
+
+h1, h2, h3, p, img, ul, blockquote {
+	padding-left: 50px;
+}
+/*fin mise en forme générale*/
+
+/*début titraille*/
+h1{
+	font-size: 20px;
+	color:#a32;
+}
+
+h2{
+	font-size: 24px;
+	margin: 40px 0 10px 0;
+}
+h3 {
+	font-size: 18px;
+} 
+/*fin titraille*/
+
+/*début listes (menu)*/
+ul {
+	background-color: #a32; 
+	padding-bottom:10px; 
+	padding-top:5px; 
+}
+li {
+	list-style: none;
+	padding:3px 3px 3px 0; 
+	font-size:12px; 
+	font-weight: bold; 
+	border-bottom:1px dashed #ccc; 
+}
+
+/*fin listes*/
+
+/*début liens menu*/
+a {
+	text-decoration: none; 
+	color:#ccc; 
+}
+a:hover { 
+	color:#fff;
+}
+ul a {
+	padding-left: 50px;
+}
+/*fin liens menu*/
+
+/* début liens page d'accueil*/
+.link {
+	color:#a32;
+}
+.link:hover {
+	color:#aaa;
+}
+/*fin liens pag accueil*/
+
+/*début texte*/
+p{
+	font-size: 14px;
+	padding-bottom: 15px;
+}
+blockquote {
+	width: 450px;
+	margin: 5px 40px 10px 90px; 
+	border:1px dashed #a32;
+	background-color: #ededed;
+	font-style: italic;
+	font-size: 16px;
+	padding: 20px;
+}
+/*fin texte*/
+
+/*début table*/
+table {
+	border-collapse: collapse;
+	font-size:14px;
+	margin-left: 50px;
+	text-align: center;
+}
+td, th {
+	padding:5px; 
+	border:1px solid #a32;
+	width:100px;
+}
+td {
+	font-size: 12px;
+}
+/*fin table*/
+
+/*début image*/
+img {
+	margin-bottom: 10px;
+}
+/*dont bordure image*/
+.border-img {
+	border:1px solid #ddd;
+}
+/*fin image*/
+
+
+/*ajout padding et marges*/
+.padding-left {
+	padding-left: 50px;
+}
+.margin-left {
+	margin-left: 25px;
+}
+/*fin ajout */
+
+/*retrait padding et bordure*/
+
+.no-border {
+	border-bottom: none;
+	border-bottom-width: 0px;
+}
+.no-padding-bottom {
+	padding-bottom: 0px;
+} 
+.no-padding-left {
+	padding-left: 0px;
+}
+/*fin de retrait d'attribut*/
+
+/*début classes */
+
+.legal {
+	background-color: #aaa; 
+	padding:30px 0; 
+	text-align: center; 
+	margin: 75px 0 0 0; 
+	color:#721717;
+}
+
+/*fin classes*/
